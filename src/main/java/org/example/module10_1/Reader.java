@@ -5,9 +5,6 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class Reader {
-    public static void getPath() {
-        System.out.println(System.getProperty("user.dir"));
-    }
     public static void read() {
         try (BufferedReader bufferedReader = new BufferedReader(new FileReader("src/main/java/org/example/module10_1/file.txt"))) {
             String line;
